@@ -21,6 +21,5 @@ EXPOSE 4040 3389
 
 # Set the ngrok configuration and start ngrok
 CMD ["powershell.exe", "-Command", "ngrok tcp --region=us 3389"]
-docker build -t myrdpimage --build-arg NgrokAuthToken=2RHyDNVWfXuybUSwMOeZY8AzT7O_4NnkfVHfK4Q9nv1mJu6tp
-docker run -p 4040:4040 -p 3389:3389 --name myrdpcontainer -d myrdpimage
+
 
