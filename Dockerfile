@@ -1,4 +1,0 @@
-FROM ngrok/ngrok:latest
-ENV NGROK_AUTHTOKEN=2RHyDNVWfXuybUSwMOeZY8AzT7O_4NnkfVHfK4Q9nv1mJu6tp
-CMD ["ngrok", "tcp", "4080"]
-EXPOSE 4040
